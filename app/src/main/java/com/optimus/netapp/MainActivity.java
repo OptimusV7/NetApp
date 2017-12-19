@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       optimusButton = (Button) findViewById(R.id.optimusButton);
+       optimusButton =  findViewById(R.id.optimusButton);
 
        optimusButton.setOnClickListener(new View.OnClickListener() {
            @Override
